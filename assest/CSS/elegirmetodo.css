@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #797979;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border-radius: 100px;
+}
+
+body {
+    background-image: url(../../image/back.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-decoration: none;
+
+    color: rgb(44, 44, 44);
+}
+
+.fa-arrow-circle-left {
+    color: #DBDBDB;
+    font-size: 50px;
+
+    padding: 10px;
+}
+
+.fa-arrow-circle-left:hover {
+    color: #c0c0c0;
+    font-size: 50px;
+
+    padding: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #DBDBDB;
+    color: rgb(44, 44, 44);
+
+    padding: 20px;
+    margin-top: 20vh;
+    width: 650px;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(255, 185, 92, 0.384);
+
+}
+
+.texts-main {
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.metodos-forms {
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-metodos {
+    padding: 30px;
+    color: rgb(44, 44, 44);
+
+    font-size: 55px;
+}
+
+
+.texto-del-metodo {
+    color: rgb(44, 44, 44);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Noto Sans Display', sans-serif;
+    padding: 10px;
+}
+
+
+.fa-whatsapp {
+    color: rgb(255, 255, 255);
+
+    padding: 10px;
+}
+
+.fa-envelope {
+    color: rgba(44, 44, 44);
+}
+
+.fa-envelope:hover {
+    color: #5c5c5c;
+}
+
+@media (max-width: 1000px) {
+
+    .fa-arrow-circle-left {
+        color: #DBDBDB;
+        font-size: 35px;
+
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .fa-arrow-circle-left:hover {
+        color: #c0c0c0;
+        font-size: 35px;
+
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+
+
+        background-color: #DBDBDB;
+        color: rgb(44, 44, 44);
+
+        padding: 20px;
+        margin: 10px;
+        margin-top: 15.9vh;
+        width: 300px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        border-radius: 5px;
+        box-shadow: 2px 2px 20px rgba(255, 185, 92, 0.384);
+
+    }
+
+    .texts-main {
+
+        font-family: 'Noto Sans Display', sans-serif;
+        font-weight: 600;
+        font-size: 14.4px;
+    }
+
+    .metodos-forms {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .padding-metodos {
+        padding: 30px;
+        color: rgb(44, 44, 44);
+
+        font-size: 55px;
+    }
+
+    .texto-del-metodo {
+        color: rgb(44, 44, 44);
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Noto Sans Display', sans-serif;
+        padding: 10px;
+    }
+
+    .fa-envelope {
+        color: rgba(44, 44, 44);
+    }
+
+    .fa-envelope:hover {
+        color: #5c5c5c;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.contacto-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #25D366;
+
+    border-radius: 7px;
+    color: #ffffff;
+
+    width: 350px;
+
+    margin: 30px;
+}
+
+@media (max-width: 1320px) {
+    .contacto-producto {
+        padding: 15px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #25D366;
+
+        border-radius: 7px;
+        color: #ffffff;
+
+        width: 250px;
+    }
+}
+
+.contacto-producto:hover {
+    background-color: #25d365cc;
+    color: #ffffff;
+    /* #010409 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+<div class="main-content">
+        <h1 class="texts-main">Elegir metodo para hacer el pedido</h1>
+        <p class="texts-main">Sin ningun compromiso estamos a la orden</p>
+
+        <div class="metodos-forms">
+            <div class="sett-metodo">
+                <a class="padding-metodos" href="./pedidoPorWhatsApp.html">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <p class="texto-del-metodo">WhatsApp</p>
+            </div>
+
+            <div class="sett-metodo">
+                <a class="padding-metodos" href="#" target="_blank">
+                    <i class="far fa-envelope"></i>
+                </a>
+                <p class="texto-del-metodo">Email</p>
+            </div>
+        </div>
+    </div>
+*/
